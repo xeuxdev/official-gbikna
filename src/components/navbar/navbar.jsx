@@ -32,7 +32,7 @@ export const Navbar = () => {
           <NavLink to="/products" onClick={() => setIsActive(false)}>
             products
           </NavLink>
-          <NavLink to="/contact-us" onClick={() => setIsActive(false)}>
+          <NavLink to="/contact" onClick={() => setIsActive(false)}>
             contact us
           </NavLink>
         </div>
