@@ -1,8 +1,8 @@
-import { teams } from "../../components/navbar/info";
+import { teams } from "../../components/info";
 import "./about.scss";
 import image1 from "../../assets/homebg.jpg";
 import image2 from "../../assets/1.avif";
-import { Parallax } from "react-parallax";
+// import { Parallax } from "react-parallax";
 
 export const About = () => {
   return (

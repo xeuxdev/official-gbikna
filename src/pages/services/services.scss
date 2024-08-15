@@ -1,0 +1,41 @@
+.services_page {
+  .main_wrapper {
+    margin-top: 50px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &:nth-child(odd) {
+          flex-direction: row-reverse;
+        }
+
+        .img {
+          width: 50%;
+        }
+
+        .txt_con {
+          width: 50%;
+
+          h3 {
+            text-transform: capitalize;
+            font-size: 20px;
+          }
+          .txt {
+            margin-top: 20px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
+}
