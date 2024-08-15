@@ -18,10 +18,10 @@ export const Services = () => {
       </div>
 
       <div className="main_wrapper">
-        <div className="container">
-          {services_data.map((i, key) => {
-            return (
-              <div className="box" key={key}>
+        {services_data.map((i, key) => {
+          return (
+            <div className="box" key={key}>
+              <div className="container">
                 <div className="img">
                   <img src={i.img} alt="img" />
                 </div>
@@ -35,9 +35,9 @@ export const Services = () => {
                   ></div>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

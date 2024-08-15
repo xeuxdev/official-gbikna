@@ -7,7 +7,7 @@
     .container {
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 50px;
 
       .product_con {
         display: flex;
@@ -79,6 +79,23 @@
 
         .img {
           width: 50%;
+        }
+
+        @media (max-width: 900px) {
+          flex-direction: column-reverse;
+          gap: 10px;
+
+          &:nth-child(even) {
+            flex-direction: column-reverse;
+          }
+
+          .img {
+            width: 100%;
+          }
+
+          .txt_con {
+            width: 100%;
+          }
         }
       }
     }

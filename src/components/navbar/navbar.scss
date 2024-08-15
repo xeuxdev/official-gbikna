@@ -6,15 +6,8 @@ nav {
   right: 0;
   z-index: 100;
   background: transparent;
-
-  &.active {
-    background: white;
-    border-bottom: 1px solid rgb(212, 209, 209);
-
-    .container .menu_btn {
-      color: $secondary_color;
-    }
-  }
+  background: white;
+  border-bottom: 1px solid rgb(212, 209, 209);
 
   .container {
     display: flex;
@@ -30,7 +23,7 @@ nav {
         display: block;
         font-size: 20px;
         cursor: pointer;
-        color: white;
+        color: $secondary_color;
       }
     }
 
@@ -48,7 +41,7 @@ nav {
         text-transform: capitalize;
         text-decoration: none;
         font-weight: 500;
-        color: rgba(255, 255, 255, 0.678);
+        color: gray;
         font-size: 16px;
         transition: 0.4s ease;
 

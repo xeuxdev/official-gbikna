@@ -7,13 +7,9 @@ import { useState } from "react";
 
 export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  const [navActive, setNavActive] = useState(false);
-  window.addEventListener("scroll", () => {
-    window.scrollY > 20 && setNavActive(true);
-    window.scrollY < 20 && setNavActive(false);
-  });
+
   return (
-    <nav className={navActive || isActive ? "active" : ""}>
+    <nav>
       <div className="container">
         <div className="logo">
           <img src={logo} alt="logo image" />
