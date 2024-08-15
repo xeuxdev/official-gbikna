@@ -1,0 +1,86 @@
+@import "../../variables.scss";
+
+.products_page {
+  .main_wrapper {
+    margin-top: 50px;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .product_con {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &:nth-child(even) {
+          flex-direction: row-reverse;
+        }
+
+        .txt_con {
+          width: 50%;
+
+          h3 {
+            text-transform: capitalize;
+            font-size: 25px;
+          }
+
+          p {
+            padding: 15px 0 25px 0;
+          }
+
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            li {
+              list-style: none;
+              display: flex;
+              gap: 5px;
+
+              span {
+                font-size: 10px;
+                color: $primary_color;
+                padding: 5px 5px;
+                background: #2b86c742;
+                height: fit-content;
+                border-radius: 5px;
+                line-height: 0;
+              }
+            }
+          }
+
+          .btn {
+            margin-top: 30px;
+
+            a {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              text-transform: capitalize;
+              font-size: 16px;
+              color: $primary_color;
+              text-decoration: none;
+              font-weight: 500;
+              transition: 0.4s ease;
+
+              &:hover {
+                color: $secondary_color;
+              }
+
+              span {
+                line-height: 0;
+              }
+            }
+          }
+        }
+
+        .img {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

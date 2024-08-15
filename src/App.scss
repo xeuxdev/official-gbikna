@@ -26,7 +26,8 @@ h5 {
   }
 }
 
-p {
+p,
+li {
   font-size: 16px;
   color: $secondary_color_alt;
   line-height: 23px;
@@ -59,6 +60,13 @@ button {
   border: none;
   cursor: pointer;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  span {
+    line-height: 0;
+  }
 
   &:hover {
     padding: 15px 35px;
