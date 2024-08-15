@@ -1,0 +1,46 @@
+import "./navbar.scss";
+import { HiOutlineMenu } from "react-icons/hi";
+import { IoCloseSharp } from "react-icons/io5";
+import logo from "../../assets/logo.png";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+
+export const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [navActive, setNavActive] = useState(false);
+  window.addEventListener("scroll", () => {
+    window.scrollY > 20 && setNavActive(true);
+    window.scrollY < 20 && setNavActive(false);
+  });
+  return (
+    <nav className={navActive || isActive ? "active" : ""}>
+      <div className="container">
+        <div className="logo">
+          <img src={logo} alt="logo image" />
+        </div>
+
+        <div className={isActive ? "links_con active " : "links_con"}>
+          <NavLink to="/" onClick={() => setIsActive(false)}>
+            home
+          </NavLink>
+          <NavLink to="/about" onClick={() => setIsActive(false)}>
+            about us
+          </NavLink>
+          <NavLink to="/services" onClick={() => setIsActive(false)}>
+            services
+          </NavLink>
+          <NavLink to="/products" onClick={() => setIsActive(false)}>
+            products
+          </NavLink>
+          <NavLink to="/contact-us" onClick={() => setIsActive(false)}>
+            contact us
+          </NavLink>
+        </div>
+
+        <div className="menu_btn" onClick={() => setIsActive(!isActive)}>
+          {isActive ? <IoCloseSharp /> : <HiOutlineMenu />}
+        </div>
+      </div>
+    </nav>
+  );
+};
