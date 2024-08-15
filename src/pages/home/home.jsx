@@ -13,22 +13,16 @@ export const Home = () => {
         <div className="wrapper">
           <div className="container">
             <div className="txt_con">
-              <h1>
-                {/* Integrated Technology <span>Solutions</span> for Business and
-                Society */}
+              <h1 data-aos="fade-up">
                 Integrated <span>Solutions</span> for a Better World
               </h1>
-              <p>
-                {/* We provide integrated technology solutions that bridge the gap
-                between business efficiency and societal progress. Our offerings
-                span across industries, empowering organizations to achieve
-                their goals while contributing to a better world. */}
+              <p data-aos="fade-up">
                 We offer a comprehensive suite of technology solutions designed
                 to drive business growth and societal impact. From financial
                 services to infrastructure, we're your partner in innovation.
               </p>
 
-              <div className="btns">
+              <div className="btns" data-aos="fade-up">
                 <button className="trans_btn">contact us</button>
                 <button className="trans_btn">our service</button>
               </div>
@@ -39,7 +33,7 @@ export const Home = () => {
 
       <section className="about_section">
         <div className="container">
-          <div className="txt_con">
+          <div className="txt_con" data-aos="fade-right">
             <span>welcome</span>
             <h2>about gbikna</h2>
             <p>
@@ -57,7 +51,7 @@ export const Home = () => {
             </Link>
           </div>
 
-          <div className="img_con">
+          <div className="img_con" data-aos="fade-left">
             <img src={about_image} alt="about image" />
           </div>
         </div>
@@ -66,7 +60,7 @@ export const Home = () => {
       <div className="services_wrapper">
         <section className="financial_solution_section service_con">
           <div className="container">
-            <div className="txt_con">
+            <div className="txt_con" data-aos="fade-left">
               <small>Financial Solutions</small>
               <h2>Your Comprehensive Financial Partner</h2>
 
@@ -115,7 +109,7 @@ export const Home = () => {
               </ul>
             </div>
 
-            <div className="img_con">
+            <div className="img_con" data-aos="fade-right">
               <img src={finance_image} alt="image" />
             </div>
           </div>
@@ -123,7 +117,7 @@ export const Home = () => {
 
         <section className="business_solution_section service_con">
           <div className="container">
-            <div className="txt_con">
+            <div className="txt_con" data-aos="fade-right">
               <small>enterprise Solutions</small>
               <h2>Driving Business Efficiency</h2>
 
@@ -158,7 +152,7 @@ export const Home = () => {
               </ul>
             </div>
 
-            <div className="img_con">
+            <div className="img_con" data-aos="fade-left">
               <img src={business_image} alt="image" />
             </div>
           </div>
@@ -166,7 +160,7 @@ export const Home = () => {
 
         <section className="infrastructure_solution_section service_con">
           <div className="container">
-            <div className="txt_con">
+            <div className="txt_con" data-aos="fade-left">
               <small>infrastructure & operations</small>
               <h2> Empowering Your Enterprise</h2>
 
@@ -193,7 +187,7 @@ export const Home = () => {
               </ul>
             </div>
 
-            <div className="img_con">
+            <div className="img_con" data-aos="fade-right">
               <img src={infrast_image} alt="image" />
             </div>
           </div>

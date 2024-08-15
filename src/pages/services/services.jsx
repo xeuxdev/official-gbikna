@@ -4,6 +4,7 @@ import "./services.scss";
 export const Services = () => {
   return (
     <div className="services_page">
+      {/* header */}
       <div className="header">
         <div className="wrapper">
           <div className="container">
@@ -17,16 +18,18 @@ export const Services = () => {
         </div>
       </div>
 
+      {/* main */}
+
       <div className="main_wrapper">
         {services_data.map((i, key) => {
           return (
-            <div className="box" key={key}>
+            <div className="box" key={key} data-aos="fade-up">
               <div className="container">
-                <div className="img">
+                <div className="img" data-aos="fade-right">
                   <img src={i.img} alt="img" />
                 </div>
 
-                <div className="txt_con">
+                <div className="txt_con" data-aos="fade-left">
                   <h3>{i.title}</h3>
 
                   <div

@@ -6,7 +6,7 @@ import olivia_img from "../assets/olivia.webp";
 export const Product2 = () => {
   return (
     <div className="product_con olivia">
-      <div className="txt_con">
+      <div className="txt_con" data-aos="fade-left">
         <h3>olivia</h3>
         <p>
           Olivia is more than just a platform; it's a strategic partner designed
@@ -57,7 +57,7 @@ export const Product2 = () => {
         </div>
       </div>
 
-      <div className="img">
+      <div className="img" data-aos="fade-right">
         <img src={olivia_img} alt="megaclus" />
       </div>
     </div>

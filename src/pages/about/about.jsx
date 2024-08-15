@@ -6,6 +6,7 @@ import image2 from "../../assets/about.png";
 export const About = () => {
   return (
     <div className="about_page">
+      {/* header */}
       <div className="header">
         <div className="wrapper">
           <div className="container">
@@ -17,13 +18,15 @@ export const About = () => {
         </div>
       </div>
 
+      {/* main */}
+
       <div className="main_wrapper">
         <div className="container">
           <div className="about_wrapper">
             <div className="about_us con">
               <div className="txt_con">
-                <h2>about gbikna</h2>
-                <div className="txt">
+                <h2 data-aos="fade-up">about gbikna</h2>
+                <div className="txt" data-aos="fade-up">
                   <p>
                     Gbikna is a forward-thinking technology company dedicated to
                     delivering innovative solutions that drive business growth
@@ -48,15 +51,15 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="img_con">
+              <div className="img_con" data-aos="fade-up">
                 <img src={image1} alt="image" />
               </div>
             </div>
 
             <div className="our_mission con">
               <div className="txt_con">
-                <h2>our mission</h2>
-                <div className="txt">
+                <h2 data-aos="fade-up">our mission</h2>
+                <div className="txt" data-aos="fade-up">
                   <p>
                     Our mission is to be a catalyst for progress by delivering
                     transformative technology solutions. We are dedicated to
@@ -81,15 +84,15 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="img_con">
+              <div className="img_con" data-aos="fade-up">
                 <img src={image2} alt="image" />
               </div>
             </div>
           </div>
 
           <div className="team_wrapper">
-            <h2>our teams</h2>
-            <p>
+            <h2 data-aos="fade-up">our teams</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Assumenda consequatu
             </p>
@@ -97,7 +100,7 @@ export const About = () => {
             <div className="teams_box_con">
               {teams.map((i, key) => {
                 return (
-                  <div className="box" key={key}>
+                  <div className="box" key={key} data-aos="fade-up">
                     <div className="img">
                       <img src={i.img} alt="image" />
                     </div>

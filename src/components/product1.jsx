@@ -6,7 +6,7 @@ import megaclus_img from "../assets/megaclus.png";
 export const Product1 = () => {
   return (
     <div className="product_con megaclus">
-      <div className="txt_con">
+      <div className="txt_con" data-aos="fade-right">
         <h3>megaclus</h3>
         <p>
           Megaclus is more than just a social media platform. It's a vibrant
@@ -54,7 +54,7 @@ export const Product1 = () => {
         </div>
       </div>
 
-      <div className="img">
+      <div className="img" data-aos="fade-left">
         <img src={megaclus_img} alt="megaclus" />
       </div>
     </div>

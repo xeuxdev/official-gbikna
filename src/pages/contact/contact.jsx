@@ -24,7 +24,7 @@ export const Contact = () => {
 
       <div className="main_wrapper">
         <div className="container">
-          <div className="txt_con">
+          <div className="txt_con" data-aos="fade-right">
             <div className="info_box">
               <div className="box">
                 <span>
@@ -86,7 +86,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="form_section">
+          <div className="form_section" data-aos="fade-left">
             <h4>leave a message</h4>
 
             <form action="#">

@@ -2,7 +2,7 @@ import "./navbar.scss";
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
 import logo from "../../assets/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -11,9 +11,11 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="container">
-        <div className="logo">
-          <img src={logo} alt="logo image" />
-        </div>
+        <Link className="logo" to="/">
+          <div>
+            <img src={logo} alt="logo image" />
+          </div>
+        </Link>
 
         <div className={isActive ? "links_con active " : "links_con"}>
           <NavLink to="/" onClick={() => setIsActive(false)}>
