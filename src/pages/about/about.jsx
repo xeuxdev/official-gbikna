@@ -2,7 +2,6 @@ import { teams } from "../../components/info";
 import "./about.scss";
 import image1 from "../../assets/homebg.jpg";
 import image2 from "../../assets/1.avif";
-// import { Parallax } from "react-parallax";
 
 export const About = () => {
   return (
@@ -20,82 +19,58 @@ export const About = () => {
       </div>
 
       <div className="main_wrapper">
-        <div className="about_wrapper">
-          <div className="txt_con">
-            <div className="container">
-              <h3>about gbikna</h3>
-              <div className="txt">
+        <div className="container">
+          <div className="about_wrapper">
+            <div className="about_us con">
+              <div className="txt_con">
+                <h2>about gbikna</h2>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Consequuntur nostrum, laudantium perferendis dolorum, minus
-                  illum minima soluta, natus omnis fuga pariatur repudiandae.
-                  Fugit, provident. Nulla adipisci corrupti cumque excepturi
-                  tempora?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  officia velit dolorem accusantium amet quidem id quas ratione
+                  maiores distinctio illo sunt voluptatibus, saepe,
+                  reprehenderit, mollitia aut! Nisi, reiciendis est! Voluptatum
+                  exercitationem laudantium corrupti repudiandae dolor
+                  reiciendis repellat aliquid, molestias explicabo ipsam, modi
+                  fugit placeat. Quia quam quos iure quod odit laborum corrupti
+                  culpa, aliquid excepturi! Hic praesentium ipsa nesciunt! Non
+                  quia ullam velit, quasi, in laudantium pariatur nulla fuga
+                  voluptate officia laboriosam, possimus est nostrum ipsam eos
+                  quidem aperiam? Neque ipsam dolore deleniti suscipit ipsa
+                  aperiam id, praesentium aspernatur!
                 </p>
+              </div>
+
+              <div className="img_con">
+                <img src={image1} alt="image" />
+              </div>
+            </div>
+
+            <div className="our_mission con">
+              <div className="txt_con">
+                <h2>our mission</h2>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Consequuntur nostrum, laudantium perferendis dolorum, minus
-                  illum minima soluta, natus omnis fuga pariatur repudiandae.
-                  Fugit, provident. Nulla adipisci corrupti cumque excepturi
-                  tempora?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, incidunt? Iure blanditiis laboriosam ratione totam
+                  optio tempore excepturi quas? Quidem impedit atque sint, quod
+                  nemo laboriosam omnis. Cumque, quaerat esse? Corrupti veniam
+                  amet magni ipsa rem exercitationem alias explicabo tempore, ad
+                  consequatur nulla, ex culpa, doloribus tenetur voluptatibus
+                  consequuntur facilis praesentium ab modi. Corrupti veritatis
+                  ipsam velit adipisci sit hic. Reprehenderit facere natus
+                  dolorem eaque possimus id deleniti, laboriosam a quibusdam!
+                  Sint quidem eum, dicta expedita necessitatibus eaque! Modi
+                  commodi optio voluptate aspernatur esse adipisci dolores,
+                  molestias rerum facilis tempore!
                 </p>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Consequuntur nostrum, laudantium perferendis dolorum, minus
-                  illum minima soluta, natus omnis fuga pariatur repudiandae.
-                  Fugit, provident. Nulla adipisci corrupti cumque excepturi
-                  tempora?
-                </p>
+              </div>
+
+              <div className="img_con">
+                <img src={image2} alt="image" />
               </div>
             </div>
           </div>
 
-          {/* <Parallax
-            bgImage={image1}
-            bgImageAlt="the cat"
-            strength={100}
-            className="img_con"
-          /> */}
-
-          <div className="img_con">
-            <img src={image1} alt="image" />
-          </div>
-
-          <div className="txt_con">
-            <div className="container">
-              <h3>our mission</h3>
-
-              <div className="txt">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur doloribus eveniet perferendis illum aut magnam
-                  placeat quibusdam sint dolores nam, sit velit accusamus
-                  praesentium quasi corporis aliquam eius voluptatum excepturi!
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequatur doloribus eveniet perferendis illum aut magnam
-                  placeat quibusdam sint dolores nam, sit velit accusamus
-                  praesentium quasi corporis aliquam eius voluptatum excepturi!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* <Parallax
-            bgImage={image2}
-            bgImageAlt="the cat"
-            strength={100}
-            className="img_con"
-          /> */}
-
-          <div className="img_con">
-            <img src={image2} alt="image" />
-          </div>
-        </div>
-
-        <div className="team_wrapper">
-          <div className="container">
+          <div className="team_wrapper">
             <h2>our teams</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
