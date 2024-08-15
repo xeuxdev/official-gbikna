@@ -13,8 +13,8 @@ export const Contact = () => {
           <div className="container">
             <h2>contact us</h2>
             <p>
-              nemo quia excepturi nam repellendus beatae pariatur id dolor
-              voluptatem.
+              Reach out to our dedicated team for inquiries, support, or
+              partnership opportunities.
             </p>
           </div>
         </div>

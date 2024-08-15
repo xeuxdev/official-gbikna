@@ -19,7 +19,7 @@
         padding-bottom: 130px;
 
         .txt_con {
-          width: 65%;
+          width: 60%;
 
           h1 {
             font-size: 40px;
@@ -59,6 +59,16 @@
                   background: white;
                   color: $primary_color;
                 }
+              }
+            }
+
+            @media (max-width: 325px) {
+              flex-direction: column;
+
+              button {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
               }
             }
           }

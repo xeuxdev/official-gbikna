@@ -11,8 +11,8 @@ export const Products = () => {
           <div className="container">
             <h2>our products</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequuntur nostrum,
+              Unleash your business potential. Discover our game-changing
+              solutions.
             </p>
           </div>
         </div>

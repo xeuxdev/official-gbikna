@@ -9,29 +9,36 @@ export const Product1 = () => {
       <div className="txt_con">
         <h3>megaclus</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
-          aliquam voluptas odit esse quam maxime saepe minima. Debitis,
-          molestiae maiores nemo quia excepturi nam repellendus beatae pariatur
-          id dolor voluptatem.
+          Megaclus is more than just a social media platform. It's a vibrant
+          community where you can connect with friends, discover amazing
+          products, and shop effortlessly. Enjoy a seamless blend of social
+          interaction and e-commerce as you explore and purchase from a vast
+          array of brands and creators.
         </p>
         <ul>
           <li>
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Collect one-time and recurring payments from your app or website
+            social networking
           </li>
           <li>
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Make instant transfers
+            Live Shopping Experiences
           </li>
           <li>
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Retrieve all your transaction and customer data
+            Interactive Live Shopping
+          </li>
+          <li>
+            <span className="check_mark">
+              <ImCheckmark />
+            </span>
+            secure Payment Integration
           </li>
         </ul>
 

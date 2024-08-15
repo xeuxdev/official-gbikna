@@ -11,8 +11,7 @@ export const About = () => {
           <div className="container">
             <h2>about us</h2>
             <p>
-              Because we are simply obsessed with adding value to our client’s
-              lives
+              Discover Gbikna's mission to drive progress through technology.
             </p>
           </div>
         </div>
@@ -24,20 +23,29 @@ export const About = () => {
             <div className="about_us con">
               <div className="txt_con">
                 <h2>about gbikna</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  officia velit dolorem accusantium amet quidem id quas ratione
-                  maiores distinctio illo sunt voluptatibus, saepe,
-                  reprehenderit, mollitia aut! Nisi, reiciendis est! Voluptatum
-                  exercitationem laudantium corrupti repudiandae dolor
-                  reiciendis repellat aliquid, molestias explicabo ipsam, modi
-                  fugit placeat. Quia quam quos iure quod odit laborum corrupti
-                  culpa, aliquid excepturi! Hic praesentium ipsa nesciunt! Non
-                  quia ullam velit, quasi, in laudantium pariatur nulla fuga
-                  voluptate officia laboriosam, possimus est nostrum ipsam eos
-                  quidem aperiam? Neque ipsam dolore deleniti suscipit ipsa
-                  aperiam id, praesentium aspernatur!
-                </p>
+                <div className="txt">
+                  <p>
+                    Gbikna is a forward-thinking technology company dedicated to
+                    delivering innovative solutions that drive business growth
+                    and societal progress. With a focus on financial services,
+                    enterprise solutions, and infrastructure, Gbikna empowers
+                    organizations to achieve their full potential.
+                  </p>
+                  <p>
+                    Through a comprehensive suite of products and services,
+                    Gbikna offers cutting-edge solutions that address the
+                    evolving needs of businesses and communities. From
+                    developing robust payment systems to optimizing complex
+                    operations, Gbikna is committed to providing reliable and
+                    efficient technology solutions.
+                  </p>
+
+                  <p>
+                    With a strong emphasis on innovation and customer
+                    satisfaction, Gbikna is shaping the future of technology by
+                    delivering exceptional value and creating a lasting impact.
+                  </p>
+                </div>
               </div>
 
               <div className="img_con">
@@ -48,20 +56,29 @@ export const About = () => {
             <div className="our_mission con">
               <div className="txt_con">
                 <h2>our mission</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, incidunt? Iure blanditiis laboriosam ratione totam
-                  optio tempore excepturi quas? Quidem impedit atque sint, quod
-                  nemo laboriosam omnis. Cumque, quaerat esse? Corrupti veniam
-                  amet magni ipsa rem exercitationem alias explicabo tempore, ad
-                  consequatur nulla, ex culpa, doloribus tenetur voluptatibus
-                  consequuntur facilis praesentium ab modi. Corrupti veritatis
-                  ipsam velit adipisci sit hic. Reprehenderit facere natus
-                  dolorem eaque possimus id deleniti, laboriosam a quibusdam!
-                  Sint quidem eum, dicta expedita necessitatibus eaque! Modi
-                  commodi optio voluptate aspernatur esse adipisci dolores,
-                  molestias rerum facilis tempore!
-                </p>
+                <div className="txt">
+                  <p>
+                    Our mission is to be a catalyst for progress by delivering
+                    transformative technology solutions. We are dedicated to
+                    empowering businesses and communities to achieve their full
+                    potential through innovation, efficiency, and
+                    sustainability. By leveraging cutting-edge technology and
+                    industry expertise, we create value, drive growth, and
+                    foster positive change. Gbikna is committed to building a
+                    future where technology is a force for good, enhancing lives
+                    and strengthening economies.
+                  </p>
+
+                  <p>
+                    Our solutions extend across various sectors, including
+                    finance, enterprise, and infrastructure. Whether it's
+                    optimizing financial operations, streamlining business
+                    processes, or building robust infrastructure, Gbikna offers
+                    tailored solutions to meet the unique needs of our clients.
+                    We are committed to fostering long-term partnerships based
+                    on trust, reliability, and shared success.
+                  </p>
+                </div>
               </div>
 
               <div className="img_con">

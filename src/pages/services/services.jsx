@@ -10,8 +10,8 @@ export const Services = () => {
             <h2>our services</h2>
 
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequuntur nostrum,
+              Uncover the solutions that drive your success. Explore our
+              services.
             </p>
           </div>
         </div>

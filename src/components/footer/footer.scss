@@ -1,0 +1,174 @@
+@import "../../variables.scss";
+
+footer {
+  margin-top: 70px;
+  .section1 {
+    border-top: 1px solid rgb(220, 218, 218);
+    border-bottom: 1px solid rgb(220, 218, 218);
+    padding: 30px 0;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .txt {
+        p {
+          text-transform: capitalize;
+        }
+
+        h2 {
+          text-transform: capitalize;
+        }
+      }
+
+      @media (max-width: 425px) {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+
+  .section2 {
+    padding: 50px 0;
+    background: whitesmoke;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        min-width: 300px;
+        max-width: 400px;
+        flex: 1;
+
+        .logo {
+          width: 130px;
+          height: 40px;
+        }
+      }
+
+      .box2 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        flex: 1;
+
+        min-width: 100px;
+        max-width: 200px;
+        width: 100%;
+
+        h3 {
+          text-transform: capitalize;
+          font-size: 15px;
+        }
+
+        .links {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          a {
+            text-transform: capitalize;
+            font-weight: 500;
+            color: grey;
+
+            &:hover {
+              color: $primary_color;
+            }
+          }
+        }
+      }
+
+      .box3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 1;
+
+        min-width: 100px;
+        max-width: 200px;
+        width: 100%;
+
+        h3 {
+          text-transform: capitalize;
+          font-size: 15px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          p {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            span {
+              font-size: 20px;
+              line-height: 0;
+            }
+          }
+        }
+      }
+
+      .box4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 1;
+
+        min-width: 150px;
+        max-width: 200px;
+        width: 100%;
+
+        h3 {
+          text-transform: capitalize;
+          font-size: 15px;
+        }
+
+        div {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          span {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            color: white;
+            background: $primary_color;
+            list-style: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.4s ease;
+
+            &:hover {
+              box-shadow: 0 0 5px grey;
+            }
+          }
+        }
+      }
+
+      @media (max-width: 500px) {
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+  }
+
+  .section3 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -14,14 +14,18 @@ export const Home = () => {
           <div className="container">
             <div className="txt_con">
               <h1>
-                Integrated Technology <span>Solutions</span> for Business and
-                Society
+                {/* Integrated Technology <span>Solutions</span> for Business and
+                Society */}
+                Integrated <span>Solutions</span> for a Better World
               </h1>
               <p>
-                We provide integrated technology solutions that bridge the gap
+                {/* We provide integrated technology solutions that bridge the gap
                 between business efficiency and societal progress. Our offerings
                 span across industries, empowering organizations to achieve
-                their goals while contributing to a better world.
+                their goals while contributing to a better world. */}
+                We offer a comprehensive suite of technology solutions designed
+                to drive business growth and societal impact. From financial
+                services to infrastructure, we're your partner in innovation.
               </p>
 
               <div className="btns">
