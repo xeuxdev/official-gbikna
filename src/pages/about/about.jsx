@@ -1,7 +1,7 @@
 import { teams } from "../../components/info";
 import "./about.scss";
-import image1 from "../../assets/homebg.jpg";
-import image2 from "../../assets/1.avif";
+import image1 from "../../assets/about.jpg";
+import image2 from "../../assets/about.png";
 
 export const About = () => {
   return (

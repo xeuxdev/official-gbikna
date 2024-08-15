@@ -75,7 +75,7 @@ footer {
           a {
             text-transform: capitalize;
             font-weight: 500;
-            color: grey;
+            color: $secondary_color_alt;
 
             &:hover {
               color: $primary_color;
