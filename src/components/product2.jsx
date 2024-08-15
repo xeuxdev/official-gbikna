@@ -16,19 +16,19 @@ export const Product2 = () => {
         </p>
         <ul>
           <li>
-            <span>
+            <span className="check_mark">
               <ImCheckmark />
             </span>
             Collect one-time and recurring payments from your app or website
           </li>
           <li>
-            <span>
+            <span className="check_mark">
               <ImCheckmark />
             </span>
             Make instant transfers
           </li>
           <li>
-            <span>
+            <span className="check_mark">
               <ImCheckmark />
             </span>
             Retrieve all your transaction and customer data

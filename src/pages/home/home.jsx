@@ -1,6 +1,10 @@
 import "./home.scss";
 import about_image from "../../assets/about.jpg";
 import { Link } from "react-router-dom";
+import { ImCheckmark } from "react-icons/im";
+import finance_image from "../../assets/finance.jpg";
+import business_image from "../../assets/business.webp";
+import infrast_image from "../../assets/infrast.jpg";
 
 export const Home = () => {
   return (
@@ -54,6 +58,143 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className="services_wrapper">
+        <section className="financial_solution_section service_con">
+          <div className="container">
+            <div className="txt_con">
+              <small>Financial Solutions</small>
+              <h2>Your Comprehensive Financial Partner</h2>
+
+              <p>
+                Gbikna offers a comprehensive suite of financial solutions
+                designed to streamline operations and enhance customer
+                experiences. We provide innovative tools and platforms to manage
+                financial transactions, mitigate risks, and optimize financial
+                performance.
+              </p>
+
+              <ul>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  POS and ATM Payment Applications Development
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Core banking Applications
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Payment Gateway
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Agency Banking Services
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Transport Fare Solutions
+                </li>
+              </ul>
+            </div>
+
+            <div className="img_con">
+              <img src={finance_image} alt="image" />
+            </div>
+          </div>
+        </section>
+
+        <section className="business_solution_section service_con">
+          <div className="container">
+            <div className="txt_con">
+              <small>enterprise Solutions</small>
+              <h2>Driving Business Efficiency</h2>
+
+              <p>
+                Gbikna empowers businesses to achieve operational excellence and
+                strategic growth through our enterprise solutions. We offer a
+                range of tools and platforms to optimize business processes,
+                manage resources effectively, and make data-driven decisions.
+              </p>
+
+              <ul>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Enterprise solutions
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Tax management Application
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Data Analytics
+                </li>
+              </ul>
+            </div>
+
+            <div className="img_con">
+              <img src={business_image} alt="image" />
+            </div>
+          </div>
+        </section>
+
+        <section className="infrastructure_solution_section service_con">
+          <div className="container">
+            <div className="txt_con">
+              <small>infrastructure & operations</small>
+              <h2> Empowering Your Enterprise</h2>
+
+              <p>
+                Gbikna provides essential infrastructure and operational support
+                for business growth and efficiency. We offer solutions to
+                optimize systems and processes.
+              </p>
+
+              <ul>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Terminal Management System
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Traffic Management Solutions
+                </li>
+              </ul>
+            </div>
+
+            <div className="img_con">
+              <img src={infrast_image} alt="image" />
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };

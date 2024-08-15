@@ -50,6 +50,17 @@ li {
 img {
   width: 100%;
   height: 100%;
+  border-radius: inherit;
+}
+
+.check_mark {
+  font-size: 10px;
+  color: $primary_color;
+  padding: 5px 5px;
+  background: #2b86c742;
+  height: fit-content;
+  border-radius: 5px;
+  line-height: 0;
 }
 
 button {
