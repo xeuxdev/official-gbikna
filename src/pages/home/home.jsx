@@ -14,12 +14,15 @@ export const Home = () => {
           <div className="container">
             <div className="txt_con">
               <h1 data-aos="fade-up">
-                Integrated <span>Solutions</span> for a Better World
+                Integrating <span>Solutions</span> for a Better World
               </h1>
               <p data-aos="fade-up">
-                We offer a comprehensive suite of technology solutions designed
-                to drive business growth and societal impact. From financial
-                services to infrastructure, we're your partner in innovation.
+                We offer a comprehensive suite of technology solutions aimed at
+                accelerating business growth and enhancing societal impact. Our
+                expertise span across a wide range of industries including
+                building innovative payment solutions for the current key
+                players in the PTSP, PSSPs space providing custom solutions to
+                banks and payment switches
               </p>
 
               <div className="btns" data-aos="fade-up">
@@ -34,21 +37,23 @@ export const Home = () => {
       <section className="about_section">
         <div className="container">
           <div className="txt_con" data-aos="fade-right">
-            <span>welcome</span>
             <h2>about gbikna</h2>
-            <p>
-              Our mission extends beyond profit. We are dedicated to crafting
-              innovative technology solutions that not only drive business
-              success but also contribute meaningfully to society. By seamlessly
-              integrating technology into various sectors, we aim to optimize
-              operations, enhance efficiency, and create a positive impact. Our
-              commitment lies in building a future where technology serves as a
-              catalyst for both economic growth and social progress.
-            </p>
+            <div className="txt">
+              <p>
+                At Gbikna, innovation is at the heart of everything we do, and
+                we are passionate about shaping the future of technology. We
+                understand that managing a business can be complicated, so we
+                create solutions and tools that help you take control of your
+                business.
+              </p>
 
-            <Link to={"/about"}>
-              <button>learn more</button>
-            </Link>
+              <p>
+                Our commitment goes beyond simply providing software solutions,
+                we partner with businesses to understand their unique needs and
+                deliver tailored solutions that promotes e-commerce and powers
+                businesses to scale globally and thrive in the digital world.
+              </p>
+            </div>
           </div>
 
           <div className="img_con" data-aos="fade-left">
@@ -62,22 +67,16 @@ export const Home = () => {
           <div className="container">
             <div className="txt_con" data-aos="fade-left">
               <small>Financial Solutions</small>
-              <h2>Your Comprehensive Financial Partner</h2>
+              <h2>Your Financial Partner</h2>
 
-              <p>
-                Gbikna offers a comprehensive suite of financial solutions
-                designed to streamline operations and enhance customer
-                experiences. We provide innovative tools and platforms to manage
-                financial transactions, mitigate risks, and optimize financial
-                performance.
-              </p>
+              <p>We offer the following services:</p>
 
               <ul>
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  POS and ATM Payment Applications Development
+                  E-commerce services
                 </li>
 
                 <li>
@@ -91,7 +90,7 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Payment Gateway
+                  POS Application
                 </li>
 
                 <li>
@@ -104,7 +103,13 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Transport Fare Solutions
+                  Payment Gateway
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Terminal Management System
                 </li>
               </ul>
             </div>
@@ -119,13 +124,13 @@ export const Home = () => {
           <div className="container">
             <div className="txt_con" data-aos="fade-right">
               <small>enterprise Solutions</small>
-              <h2>Driving Business Efficiency</h2>
+              <h2>Growing your business is our priority</h2>
 
               <p>
-                Gbikna empowers businesses to achieve operational excellence and
-                strategic growth through our enterprise solutions. We offer a
-                range of tools and platforms to optimize business processes,
-                manage resources effectively, and make data-driven decisions.
+                Gbikna powers businesses to achieve operational excellence and
+                strategic growth through enterprise solutions. We offer business
+                tools and platforms to drive growth and help business make data
+                driven decisions.
               </p>
 
               <ul>
@@ -147,7 +152,31 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Data Analytics
+                  Data analytics
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Risk Analysis and artificial intelligence
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Secure web Applications
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Card Switch
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Transportation and Traffic Management solutions
                 </li>
               </ul>
             </div>
@@ -165,9 +194,11 @@ export const Home = () => {
               <h2> Empowering Your Enterprise</h2>
 
               <p>
-                Gbikna provides essential infrastructure and operational support
-                for business growth and efficiency. We offer solutions to
-                optimize systems and processes.
+                Our team of experts deliver top-notch solution that streamline
+                business processes, ensuring you stay ahead in any competitive
+                landscape. With Gbikna, experience a seamless blend of
+                innovation and expertise that would transform your business and
+                unlock its full potential.
               </p>
 
               <ul>
@@ -183,6 +214,12 @@ export const Home = () => {
                     <ImCheckmark />
                   </span>
                   Traffic Management Solutions
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Business Intelligence solutions
                 </li>
               </ul>
             </div>

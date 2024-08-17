@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="section1">
         <div className="container">
           <div className="txt">
-            <p>join the moving train today.</p>
+            <p>Ride with us, your future is waiting.</p>
             <h2>ready to work with us?</h2>
           </div>
 
