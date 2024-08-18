@@ -3,8 +3,8 @@ import about_image from "../../assets/about.jpg";
 import { Link } from "react-router-dom";
 import { ImCheckmark } from "react-icons/im";
 import finance_image from "../../assets/finance.jpg";
-import business_image from "../../assets/business.webp";
-import infrast_image from "../../assets/infrast.jpg";
+import business_image from "../../assets/business.jpg";
+import infrast_image from "../../assets/management.jpg";
 import { partnersInfo } from "../../components/info";
 
 import home_img1 from "../../assets/home-img1.jpg";
@@ -108,6 +108,7 @@ export const Home = () => {
         </div>
       </section>
 
+      {/* ABOUT SECTION */}
       <section className="about_section">
         <div className="container">
           <div className="txt_con" data-aos="fade-right">
@@ -122,12 +123,12 @@ export const Home = () => {
               </p>
 
               <p>
-                Our commitment goes beyond simply providing software solutions,
-                we partner with businesses to understand their unique needs and
-                deliver tailored solutions that promotes e-commerce and powers
-                businesses to scale globally and thrive in the digital world.
+                We partner with businesses to create tailored e-commerce
+                solutions for global growth.
               </p>
             </div>
+
+            <button>read more</button>
           </div>
 
           <div className="img_con" data-aos="fade-left">
@@ -135,17 +136,16 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      {/* 
+
       <div className="services_wrapper">
         <section className="financial_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-left">
-              <small>Financial Solutions</small>
               <h2>Your Financial Partner</h2>
 
               <p>We offer the following services:</p>
 
-              <ul>
+              <ul className="list_con">
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
@@ -197,7 +197,6 @@ export const Home = () => {
         <section className="business_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-right">
-              <small>enterprise Solutions</small>
               <h2>Growing your business is our priority</h2>
 
               <p>
@@ -207,7 +206,7 @@ export const Home = () => {
                 driven decisions.
               </p>
 
-              <ul>
+              <ul className="list_con">
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
@@ -259,7 +258,6 @@ export const Home = () => {
         <section className="infrastructure_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-left">
-              <small>infrastructure & operations</small>
               <h2> Empowering Your Enterprise</h2>
 
               <p>
@@ -270,7 +268,7 @@ export const Home = () => {
                 unlock its full potential.
               </p>
 
-              <ul>
+              <ul className="list_con">
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
@@ -298,7 +296,7 @@ export const Home = () => {
             </div>
           </div>
         </section>
-      </div> */}
+      </div>
     </div>
   );
 };

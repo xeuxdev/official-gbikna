@@ -47,7 +47,7 @@ p,
 li {
   font-size: 15px;
   color: $secondary_color_alt;
-  line-height: 25px;
+  line-height: 23px;
   font-weight: 450;
 }
 
@@ -137,6 +137,22 @@ button {
           width: 100%;
         }
       }
+    }
+  }
+}
+
+.list_con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  li {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+
+    span {
+      margin-top: 2px;
     }
   }
 }
