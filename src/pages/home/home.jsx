@@ -84,7 +84,15 @@ export const Home = () => {
                 {partnersInfo.map((i, key) => {
                   return (
                     <SwiperSlide className="box" key={key}>
-                      <img src={i.img} alt="image" />
+                      <img
+                        src={i.img}
+                        alt="image"
+                        // width={i.height ? `${i.height}` : ""}
+                        // height={1000}
+                        style={{
+                          height: `${i.height ? i.height : ""}px`,
+                        }}
+                      />
                     </SwiperSlide>
                   );
                 })}

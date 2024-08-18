@@ -138,12 +138,15 @@ export const services_data = [
 export const partnersInfo = [
   {
     img: partner1,
+    height: 40,
   },
   {
     img: partner2,
+    height: 60,
   },
   {
     img: partner3,
+    height: 50,
   },
   {
     img: partner4,
