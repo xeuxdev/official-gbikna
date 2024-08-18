@@ -108,7 +108,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* <section className="about_section">
+      <section className="about_section">
         <div className="container">
           <div className="txt_con" data-aos="fade-right">
             <h2>about gbikna</h2>
@@ -135,7 +135,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-
+      {/* 
       <div className="services_wrapper">
         <section className="financial_solution_section service_con">
           <div className="container">
