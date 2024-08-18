@@ -20,6 +20,14 @@ import terminal_management from "../assets/terminal-management.png";
 import agency_banking from "../assets/agency-banking.jpg";
 import transport from "../assets/transport.jpg";
 
+import partner1 from "../assets/partner1.png";
+import partner2 from "../assets/partner2.png";
+import partner3 from "../assets/partner3.png";
+import partner4 from "../assets/partner4.png";
+import partner5 from "../assets/partner5.png";
+import partner6 from "../assets/partner6.png";
+import partner7 from "../assets/partner7.png";
+
 export const teams = [
   {
     name: "jame wisdom",
@@ -124,5 +132,43 @@ export const services_data = [
     title: "Transport Fare Solutions and Traffic Management Solutions",
     desc: "<p>Gbikna offers a suite of solutions designed to optimize transportation and urban infrastructure. Our Transport Fare Solutions streamline fare collection and management, while our Traffic Management Solutions leverage technology to improve traffic flow and urban mobility.</p>",
     img: transport,
+  },
+];
+
+export const partnersInfo = [
+  {
+    img: partner1,
+  },
+  {
+    img: partner2,
+  },
+  {
+    img: partner3,
+  },
+  {
+    img: partner4,
+  },
+  {
+    img: partner5,
+  },
+  {
+    img: partner6,
+  },
+  {
+    img: partner7,
+  },
+
+  //
+  {
+    img: partner4,
+  },
+  {
+    img: partner5,
+  },
+  {
+    img: partner6,
+  },
+  {
+    img: partner7,
   },
 ];

@@ -8,16 +8,15 @@ export const Product2 = () => {
     <div className="product_con olivia">
       <div className="txt_con" data-aos="fade-left">
         <h3>olivia</h3>
-        <p>
-          Olivia is more than just a platform; it's a strategic partner designed
-          to drive your business forward. With a comprehensive suite of tools
-          and services, Olivia empowers entrepreneurs and businesses to achieve
-          their goals. From managing your online store and expanding your
-          customer base through agency banking to automating operations with
-          AI-powered self-service kiosks, Olivia offers the flexibility and
-          scalability you need to succeed. Experience the future of business
-          with Olivia.
-        </p>
+        <div className="txt">
+          <p>
+            Olivia is an e-commerce solution designed and built to help business
+            attain greater heights. With a brilliant suite of tools and
+            services, Olivia empowers entrepreneurs and businesses to reach
+            their full potential, giving the flexibility and scalability you
+            need to thrive in the business world.
+          </p>
+        </div>
         <ul>
           <li>
             <span className="check_mark">

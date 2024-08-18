@@ -5,24 +5,34 @@ import { ImCheckmark } from "react-icons/im";
 import finance_image from "../../assets/finance.jpg";
 import business_image from "../../assets/business.webp";
 import infrast_image from "../../assets/infrast.jpg";
+import { partnersInfo } from "../../components/info";
+
+import home_img1 from "../../assets/home-img1.jpg";
+import home_img2 from "../../assets/home-img2.jpg";
+import home_img3 from "../../assets/home-img3.jpg";
+import home_img4 from "../../assets/home-img4.jpeg";
+
+import { Autoplay } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/autoplay";
 
 export const Home = () => {
   return (
     <div className="home_page">
       <section className="home_section">
-        <div className="wrapper">
+        <div className="main_wrapper">
           <div className="container">
             <div className="txt_con">
               <h1 data-aos="fade-up">
-                Integrating <span>Solutions</span> for a Better World
+                Integrating <span>solutions</span> for a better world
               </h1>
               <p data-aos="fade-up">
                 We offer a comprehensive suite of technology solutions aimed at
-                accelerating business growth and enhancing societal impact. Our
-                expertise span across a wide range of industries including
-                building innovative payment solutions for the current key
-                players in the PTSP, PSSPs space providing custom solutions to
-                banks and payment switches
+                accelerating business growth around the world.
               </p>
 
               <div className="btns" data-aos="fade-up">
@@ -30,11 +40,61 @@ export const Home = () => {
                 <button className="trans_btn">our service</button>
               </div>
             </div>
+
+            <div className="img_wrapper">
+              <div className="img_box_con">
+                <div className="img">
+                  <img src={home_img1} alt="image" />
+                </div>
+
+                <div className="img">
+                  <img src={home_img2} alt="image" />
+                </div>
+
+                <div className="img">
+                  <img src={home_img3} alt="image" />
+                </div>
+                <div className="img">
+                  <img src={home_img4} alt="image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="partners_section">
+          <div className="container">
+            <div className="txt_con">
+              <p>Our partners</p>
+              <h3>That believes in us</h3>
+            </div>
+
+            <div className="swiper_wrapper">
+              <Swiper
+                modules={[Autoplay]}
+                spaceBetween={10}
+                slidesPerView={"auto"}
+                autoplay={{
+                  delay: 700,
+                }}
+                speed={2000}
+                loop={true}
+                className="swiper_con"
+              >
+                {partnersInfo.map((i, key) => {
+                  return (
+                    <SwiperSlide className="box" key={key}>
+                      <img src={i.img} alt="image" />
+                    </SwiperSlide>
+                  );
+                })}
+              </Swiper>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="about_section">
+      {/* <section className="about_section">
         <div className="container">
           <div className="txt_con" data-aos="fade-right">
             <h2>about gbikna</h2>
@@ -145,7 +205,7 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Tax management Application
+                  Application development
                 </li>
 
                 <li>
@@ -160,12 +220,7 @@ export const Home = () => {
                   </span>
                   Risk Analysis and artificial intelligence
                 </li>
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  Secure web Applications
-                </li>
+
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
@@ -229,7 +284,7 @@ export const Home = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };

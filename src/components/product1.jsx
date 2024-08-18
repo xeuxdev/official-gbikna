@@ -8,13 +8,29 @@ export const Product1 = () => {
     <div className="product_con megaclus">
       <div className="txt_con" data-aos="fade-right">
         <h3>megaclus</h3>
-        <p>
-          Megaclus is more than just a social media platform. It's a vibrant
-          community where you can connect with friends, discover amazing
-          products, and shop effortlessly. Enjoy a seamless blend of social
-          interaction and e-commerce as you explore and purchase from a vast
-          array of brands and creators.
-        </p>
+        <div className="txt">
+          <p>
+            Welcome to MEGACLUS, where the world unites in one vibrant social
+            space! MEGACLUS connects friends, family, and new acquaintances from
+            around the globe, all while offering a bustling marketplace of goods
+            and services.
+          </p>
+          {/* <p>
+            Share your stories, explore new cultures, and dive into engaging
+            conversations within a friendly, interactive environment. MEGACLUS
+            is more than just a social platform; it brings shopping right to
+            your fingertips. Browse and order a wide range of products and
+            services, and interact with businesses and users in real-time.
+          </p> */}
+
+          <p>
+            From discovering unique local treasures to connecting with your
+            favorite global brands, every interaction on MEGACLUS is an
+            opportunity to explore and connect.
+          </p>
+
+          {/* <p>Dive in and experience the world like never before.</p> */}
+        </div>
         <ul>
           <li>
             <span className="check_mark">
