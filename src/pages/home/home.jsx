@@ -24,6 +24,7 @@ export const Home = () => {
   return (
     <div className="home_page">
       <section className="home_section">
+        {/* MAIN SECTION */}
         <div className="main_wrapper">
           <div className="container">
             <div className="txt_con">
@@ -38,6 +39,13 @@ export const Home = () => {
               <div className="btns" data-aos="fade-up">
                 <button className="trans_btn">contact us</button>
                 <button className="trans_btn">our service</button>
+              </div>
+
+              <div className="license">
+                <p>
+                  Gbikna is licensed by the <span>NDDC</span> &{" "}
+                  <span>PCI/DSS</span> certified.
+                </p>
               </div>
             </div>
 
@@ -62,13 +70,13 @@ export const Home = () => {
           </div>
         </div>
 
+        {/* PARTNERS SECTION */}
         <div className="partners_section">
           <div className="container">
             <div className="txt_con">
               <p>Our partners</p>
               <h3>That believes in us</h3>
             </div>
-
             <div className="swiper_wrapper">
               <Swiper
                 modules={[Autoplay]}
@@ -87,8 +95,6 @@ export const Home = () => {
                       <img
                         src={i.img}
                         alt="image"
-                        // width={i.height ? `${i.height}` : ""}
-                        // height={1000}
                         style={{
                           height: `${i.height ? i.height : ""}px`,
                         }}

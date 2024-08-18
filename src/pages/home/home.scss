@@ -14,10 +14,11 @@
         align-items: center;
         gap: 30px;
         padding-top: 150px;
-        padding-bottom: 70px;
+        padding-bottom: 90px;
 
         .txt_con {
           width: 50%;
+          padding-top: 100px;
 
           h1 {
             font-size: 40px;
@@ -29,7 +30,7 @@
           }
 
           p {
-            color: white;
+            color: rgb(198, 198, 198);
             padding: 20px 0 30px 0;
           }
 
@@ -44,6 +45,21 @@
                 background: transparent;
                 color: white;
                 border-color: white;
+              }
+            }
+          }
+
+          .license {
+            margin-top: 40px;
+
+            p {
+              font-size: 15px;
+              color: rgb(198, 198, 198);
+
+              span {
+                background: rgb(198, 198, 198);
+                color: $secondary_color;
+                padding: 0 5px;
               }
             }
           }
@@ -132,6 +148,8 @@
         }
 
         @media (max-width: 900px) {
+          padding-top: 100px;
+
           .img_wrapper {
             display: none;
           }
@@ -144,6 +162,10 @@
         @media (max-width: 500px) {
           .txt_con {
             width: 100%;
+
+            h1 {
+              font-size: 25px;
+            }
           }
         }
       }
