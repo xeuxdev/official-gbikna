@@ -1,77 +1,59 @@
 import "./footer.scss";
-import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import { CiLocationOn, CiMail } from "react-icons/ci";
-import { MdLocalPhone } from "react-icons/md";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
     <footer>
       <div className="section1">
         <div className="container">
-          <div className="txt">
-            <p>Ride with us, your future is waiting.</p>
-            <h2>ready to work with us?</h2>
-          </div>
-
-          <Link to={"/contact"}>
-            <button>contact us</button>
-          </Link>
-        </div>
-      </div>
-
-      <div className="section2">
-        <div className="container">
           {/* box1 */}
-          <div className="box1">
-            <div className="logo">
-              <img src={logo} alt="logo image" />
-            </div>
+          <div className="box">
+            <h3>products</h3>
 
-            <p>
-              We're committed to building a better future through technology.
-              Our solutions drive business growth while creating positive social
-              impact.
-            </p>
+            <div className="con">
+              <Link to="/" target="_blank">
+                olivia
+              </Link>
+              <Link to="/" target="_blank">
+                megaclus
+              </Link>
+            </div>
           </div>
 
           {/* box2 */}
-
-          <div className="box2">
+          <div className="box">
             <h3>quick links</h3>
 
-            <div className="links">
+            <div className="con">
               <Link to="/">home</Link>
-              <Link to="/about">about</Link>
-              <Link to="/services">sevices</Link>
               <Link to="/products">products</Link>
               <Link to="/contact">contact us</Link>
             </div>
           </div>
 
           {/* box3 */}
-
-          <div className="box3">
+          <div className="box">
             <h3>contact</h3>
 
-            <div className="div">
+            <div className="con">
               <p>
                 <span>
-                  <CiLocationOn />
+                  <FaLocationDot />
                 </span>
                 adress
               </p>
               <p>
                 <span>
-                  <MdLocalPhone />
+                  <FaPhoneAlt />
                 </span>
                 081013308
               </p>
               <p>
                 <span>
-                  <CiMail />
+                  <MdEmail />
                 </span>
                 gbikna@gmail.com
               </p>
@@ -79,13 +61,12 @@ export const Footer = () => {
           </div>
 
           {/* box4 */}
-
-          <div className="box4">
+          <div className="box">
             <h3>socials</h3>
 
-            <div className="div">
+            <div className="con2">
               <span>
-                <FaFacebookSquare />
+                <FaInstagram />
               </span>
 
               <span>
@@ -100,7 +81,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="section3">
+      <div className="section2">
         <p>&copy; Copyrights. Gbikna. 2024</p>
       </div>
     </footer>

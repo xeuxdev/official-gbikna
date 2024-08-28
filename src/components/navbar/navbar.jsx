@@ -21,12 +21,7 @@ export const Navbar = () => {
           <NavLink to="/" onClick={() => setIsActive(false)}>
             home
           </NavLink>
-          <NavLink to="/about" onClick={() => setIsActive(false)}>
-            about us
-          </NavLink>
-          <NavLink to="/services" onClick={() => setIsActive(false)}>
-            services
-          </NavLink>
+
           <NavLink to="/products" onClick={() => setIsActive(false)}>
             products
           </NavLink>

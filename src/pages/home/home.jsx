@@ -29,11 +29,11 @@ export const Home = () => {
           <div className="container">
             <div className="txt_con">
               <h1 data-aos="fade-up">
-                Integrating <span>solutions</span> for a better world
+                Staying ahead with <span> Digital Payments</span>
               </h1>
               <p data-aos="fade-up">
-                We offer a comprehensive suite of technology solutions aimed at
-                accelerating business growth around the world.
+                We provide businesses with global, robust and scalable payment
+                solutions.
               </p>
 
               <div className="btns" data-aos="fade-up">
@@ -66,43 +66,6 @@ export const Home = () => {
                   <img src={home_img4} alt="image" />
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* PARTNERS SECTION */}
-        <div className="partners_section">
-          <div className="container">
-            <div className="txt_con">
-              <p>Our partners</p>
-              <h3>That believes in us</h3>
-            </div>
-            <div className="swiper_wrapper">
-              <Swiper
-                modules={[Autoplay]}
-                spaceBetween={10}
-                slidesPerView={"auto"}
-                autoplay={{
-                  delay: 700,
-                }}
-                speed={2000}
-                loop={true}
-                className="swiper_con"
-              >
-                {partnersInfo.map((i, key) => {
-                  return (
-                    <SwiperSlide className="box" key={key}>
-                      <img
-                        src={i.img}
-                        alt="image"
-                        style={{
-                          height: `${i.height ? i.height : ""}px`,
-                        }}
-                      />
-                    </SwiperSlide>
-                  );
-                })}
-              </Swiper>
             </div>
           </div>
         </div>
