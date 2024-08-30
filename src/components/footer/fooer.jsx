@@ -43,19 +43,19 @@ export const Footer = () => {
                 <span>
                   <FaLocationDot />
                 </span>
-                adress
+                Lagos, Nigeria
               </p>
               <p>
                 <span>
                   <FaPhoneAlt />
                 </span>
-                081013308
+                +234 902 147 4294
               </p>
               <p>
                 <span>
                   <MdEmail />
                 </span>
-                gbikna@gmail.com
+                info@gbikna.com
               </p>
             </div>
           </div>

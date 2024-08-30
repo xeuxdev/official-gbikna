@@ -1,12 +1,3 @@
-import team1 from "../assets/team1.jpg";
-import team2 from "../assets/team2.jpg";
-import team3 from "../assets/team3.jpg";
-import team4 from "../assets/team4.jpg";
-import team5 from "../assets/team5.jpg";
-import team6 from "../assets/team6.jpg";
-import team7 from "../assets/team7.jpg";
-import team8 from "../assets/team8.jpg";
-
 import pos from "../assets/pos.jpg";
 import banking_app from "../assets/banking-app.webp";
 import transfer from "../assets/transfer.webp";
@@ -19,57 +10,6 @@ import data_analystics from "../assets/data-analystics.jpg";
 import terminal_management from "../assets/terminal-management.png";
 import agency_banking from "../assets/agency-banking.jpg";
 import transport from "../assets/transport.jpg";
-
-import partner1 from "../assets/partner1.png";
-import partner2 from "../assets/partner2.png";
-import partner3 from "../assets/partner3.png";
-import partner4 from "../assets/partner4.png";
-import partner5 from "../assets/partner5.png";
-import partner6 from "../assets/partner6.png";
-import partner7 from "../assets/partner7.png";
-
-export const teams = [
-  {
-    name: "jame wisdom",
-    role: "CEO",
-    img: team1,
-  },
-  {
-    name: "john daniel",
-    role: "manager",
-    img: team2,
-  },
-  {
-    name: "jim rohn",
-    role: "vice-manager",
-    img: team3,
-  },
-  {
-    name: " obunna Nnamdi",
-    role: "project adviser",
-    img: team4,
-  },
-  {
-    name: "victor james",
-    role: "designer",
-    img: team5,
-  },
-  {
-    name: "ugonna innocent",
-    role: "developer",
-    img: team6,
-  },
-  {
-    name: "jonas vincent",
-    role: "senior developer",
-    img: team7,
-  },
-  {
-    name: "jane favour ",
-    role: "assistant",
-    img: team8,
-  },
-];
 
 export const services_data = [
   {
@@ -132,46 +72,5 @@ export const services_data = [
     title: "Transport Fare Solutions and Traffic Management Solutions",
     desc: "<p>Gbikna offers a suite of solutions designed to optimize transportation and urban infrastructure. Our Transport Fare Solutions streamline fare collection and management, while our Traffic Management Solutions leverage technology to improve traffic flow and urban mobility.</p>",
     img: transport,
-  },
-];
-
-export const partnersInfo = [
-  {
-    img: partner1,
-    height: 40,
-  },
-  {
-    img: partner2,
-    height: 60,
-  },
-  {
-    img: partner3,
-    height: 50,
-  },
-  {
-    img: partner4,
-  },
-  {
-    img: partner5,
-  },
-  {
-    img: partner6,
-  },
-  {
-    img: partner7,
-  },
-
-  //
-  {
-    img: partner4,
-  },
-  {
-    img: partner5,
-  },
-  {
-    img: partner6,
-  },
-  {
-    img: partner7,
   },
 ];

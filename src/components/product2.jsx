@@ -17,7 +17,7 @@ export const Product2 = () => {
             need to thrive in the business world.
           </p>
         </div>
-        <ul>
+        <ul className="list_con">
           <li>
             <span className="check_mark">
               <ImCheckmark />
@@ -34,8 +34,16 @@ export const Product2 = () => {
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Enhanced Agency Banking for Nigeria
+            Enhanced Agency Banking
           </li>
+
+          <li>
+            <span className="check_mark">
+              <ImCheckmark />
+            </span>
+            Checkout by crypto
+          </li>
+
           <li>
             <span className="check_mark">
               <ImCheckmark />

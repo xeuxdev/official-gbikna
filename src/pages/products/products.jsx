@@ -22,8 +22,8 @@ export const Products = () => {
 
       <div className="main_wrapper">
         <div className="container">
-          <Product1 />
           <Product2 />
+          <Product1 />
         </div>
       </div>
     </div>

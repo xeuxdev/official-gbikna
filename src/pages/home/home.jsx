@@ -1,30 +1,18 @@
 import "./home.scss";
 import about_image from "../../assets/about.jpg";
-import { Link } from "react-router-dom";
 import { ImCheckmark } from "react-icons/im";
 import finance_image from "../../assets/finance.jpg";
 import business_image from "../../assets/business.jpg";
 import infrast_image from "../../assets/management.jpg";
-import { partnersInfo } from "../../components/info";
 
-import home_img1 from "../../assets/home-img1.jpg";
-import home_img2 from "../../assets/home-img2.jpg";
-import home_img3 from "../../assets/home-img3.jpg";
-import home_img4 from "../../assets/home-img4.jpeg";
-
-import { Autoplay } from "swiper/modules";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/autoplay";
+import pci from "../../assets/pci-logo.png";
+import hero from "../../assets/hero.svg";
 
 export const Home = () => {
   return (
     <div className="home_page">
       <section className="home_section">
-        {/* MAIN SECTION */}
+        {/* HOME SECTION */}
         <div className="main_wrapper">
           <div className="container">
             <div className="txt_con">
@@ -42,64 +30,19 @@ export const Home = () => {
               </div>
 
               <div className="license">
-                <p>
-                  Gbikna is licensed by the <span>NDDC</span> &{" "}
-                  <span>PCI/DSS</span> certified.
-                </p>
+                <p>PCIDSS compliant</p>
+                <img src={pci} alt="pci lpgo" />
               </div>
             </div>
 
-            <div className="img_wrapper">
-              <div className="img_box_con">
-                <div className="img">
-                  <img src={home_img1} alt="image" />
-                </div>
-
-                <div className="img">
-                  <img src={home_img2} alt="image" />
-                </div>
-
-                <div className="img">
-                  <img src={home_img3} alt="image" />
-                </div>
-                <div className="img">
-                  <img src={home_img4} alt="image" />
-                </div>
-              </div>
+            <div className="img_con">
+              <img src={hero} alt="hero image" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
-      <section className="about_section">
-        <div className="container">
-          <div className="txt_con" data-aos="fade-right">
-            <h2>about gbikna</h2>
-            <div className="txt">
-              <p>
-                At Gbikna, innovation is at the heart of everything we do, and
-                we are passionate about shaping the future of technology. We
-                understand that managing a business can be complicated, so we
-                create solutions and tools that help you take control of your
-                business.
-              </p>
-
-              <p>
-                We partner with businesses to create tailored e-commerce
-                solutions for global growth.
-              </p>
-            </div>
-
-            <button>read more</button>
-          </div>
-
-          <div className="img_con" data-aos="fade-left">
-            <img src={about_image} alt="about image" />
-          </div>
-        </div>
-      </section>
-
+      {/* SERVICES SECTION */}
       <div className="services_wrapper">
         <section className="financial_solution_section service_con">
           <div className="container">
@@ -113,40 +56,47 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  E-commerce services
+                  POS and ATM Payment Application Development
                 </li>
 
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  Core banking Applications
-                </li>
-
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  POS Application
-                </li>
-
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  Agency Banking Services
-                </li>
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
                   Payment Gateway
                 </li>
+
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Terminal Management System
+                  Crypto Checkout
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Bills Payment Engine
+                </li>
+
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Core Banking Applications
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Fund Transfer Engine
+                </li>
+                <li>
+                  <span className="check_mark">
+                    <ImCheckmark />
+                  </span>
+                  Agency Banking Services
                 </li>
               </ul>
             </div>
@@ -181,33 +131,27 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Application development
+                  Data Analytics
                 </li>
 
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Data analytics
-                </li>
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  Risk Analysis and artificial intelligence
+                  Artificial Intelligence
                 </li>
 
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Card Switch
+                  Risk Analysis Using Artificial Intelligence
                 </li>
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Transportation and Traffic Management solutions
+                  Task Management Application
                 </li>
               </ul>
             </div>
@@ -236,20 +180,20 @@ export const Home = () => {
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Terminal Management System
+                  Transport Fare Solutions
                 </li>
 
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Traffic Management Solutions
+                  Terminal Management System
                 </li>
                 <li>
                   <span className="check_mark">
                     <ImCheckmark />
                   </span>
-                  Business Intelligence solutions
+                  Traffic Management Solution
                 </li>
               </ul>
             </div>
