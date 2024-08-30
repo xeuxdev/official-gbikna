@@ -46,7 +46,7 @@ export const Contact = () => {
 
                 <div className="txt">
                   <h4>phone</h4>
-                  <p>lagos state, nigeria</p>
+                  <p>09021474294</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export const Contact = () => {
 
                 <div className="txt">
                   <h4>email</h4>
-                  <p>lagos state, nigeria</p>
+                  <p>info@gbikna.com</p>
                 </div>
               </div>
             </div>

@@ -49,7 +49,7 @@ export const Footer = () => {
                 <span>
                   <FaPhoneAlt />
                 </span>
-                +234 902 147 4294
+                09021474294
               </p>
               <p>
                 <span>
