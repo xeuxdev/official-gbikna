@@ -2,7 +2,6 @@
 
 .contact_page {
   .head {
-    margin-block: 1rem;
     width: 100%;
     height: 300px;
 
@@ -38,10 +37,12 @@
   }
 
   .main_wrapper {
-    margin-top: 100px;
+    @media (min-width: 900px) {
+      margin-top: 28px;
+    }
     .container {
       display: flex;
-      gap: 30px;
+      gap: 64px;
 
       .txt_con {
         width: 45%;
@@ -192,10 +193,6 @@
           width: 100%;
         }
       }
-    }
-
-    @media (max-width: 900px) {
-      margin-top: 50px;
     }
   }
 }
