@@ -6,9 +6,9 @@ import "./contact.scss";
 
 export const Contact = () => {
   return (
-    <div className="contact_page">
+    <section className="contact_page" id="contact">
       {/* header */}
-      <div className="header">
+      <div className="head">
         <div className="wrapper">
           <div className="container">
             <h2>contact us</h2>
@@ -109,6 +109,6 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -1,9 +1,9 @@
-import "./navbar.scss";
+import { useState } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
-import { Link, NavLink } from "react-router-dom";
-import { useState } from "react";
+import "./navbar.scss";
 
 export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -18,16 +18,16 @@ export const Navbar = () => {
         </Link>
 
         <div className={isActive ? "links_con active " : "links_con"}>
-          <NavLink to="/" onClick={() => setIsActive(false)}>
+          <a href="#" onClick={() => setIsActive(false)}>
             home
-          </NavLink>
+          </a>
 
-          <NavLink to="/products" onClick={() => setIsActive(false)}>
+          <a href="#products" onClick={() => setIsActive(false)}>
             products
-          </NavLink>
-          <NavLink to="/contact" onClick={() => setIsActive(false)}>
+          </a>
+          <a href="#contact" onClick={() => setIsActive(false)}>
             contact us
-          </NavLink>
+          </a>
         </div>
 
         <div className="menu_btn" onClick={() => setIsActive(!isActive)}>

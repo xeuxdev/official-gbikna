@@ -4,9 +4,9 @@ import "./products.scss";
 
 export const Products = () => {
   return (
-    <div className="products_page">
+    <section className="products_page" id="products">
       {/* header */}
-      <div className="header">
+      <div className="head">
         <div className="wrapper">
           <div className="container">
             <h2>our products</h2>
@@ -26,6 +26,6 @@ export const Products = () => {
           <Product1 />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

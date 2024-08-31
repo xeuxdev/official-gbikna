@@ -22,12 +22,15 @@ function App() {
   return (
     <main className="main_app">
       <Navbar />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
 
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
+      <Home />
+      <Products />
+      <Contact />
       <Footer />
     </main>
   );

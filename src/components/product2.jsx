@@ -14,7 +14,7 @@ export const Product2 = () => {
             attain greater heights. With a brilliant suite of tools and
             services, Olivia empowers entrepreneurs and businesses to reach
             their full potential, giving the flexibility and scalability you
-            need to thrive in the business world.
+            need to thrive in the business world.
           </p>
         </div>
         <ul className="list_con">

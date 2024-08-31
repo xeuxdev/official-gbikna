@@ -28,9 +28,9 @@ export const Footer = () => {
             <h3>quick links</h3>
 
             <div className="con">
-              <Link to="/">home</Link>
-              <Link to="/products">products</Link>
-              <Link to="/contact">contact us</Link>
+              <a href="#">home</a>
+              <a href="#products">products</a>
+              <a href="#contact">contact us</a>
             </div>
           </div>
 
@@ -82,7 +82,7 @@ export const Footer = () => {
       </div>
 
       <div className="section2">
-        <p>&copy; Copyrights. Gbikna. 2024</p>
+        <p>&copy; Copyrights. Gbikna. {new Date().getFullYear()}</p>
       </div>
     </footer>
   );

@@ -10,7 +10,7 @@ import hero from "../../assets/hero.svg";
 
 export const Home = () => {
   return (
-    <div className="home_page">
+    <section className="home_page" id="#">
       <section className="home_section">
         {/* HOME SECTION */}
         <div className="main_wrapper">
@@ -204,6 +204,6 @@ export const Home = () => {
           </div>
         </section>
       </div>
-    </div>
+    </section>
   );
 };
